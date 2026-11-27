@@ -30,7 +30,7 @@ Every creation in the Live Catalog runs directly in the browser with **zero inst
 ### Browse by Model
 
 - [Claude Opus 5.5 (20)](https://ahanow.ai/showcase/model/claude-opus-5-5)
-- [Claude Fable 5.2 (8)](https://ahanow.ai/showcase/model/claude-fable-5-2)
+- [Claude Fable 5.2 (10)](https://ahanow.ai/showcase/model/claude-fable-5-2)
 - [Claude (3)](https://ahanow.ai/showcase/model/claude)
 - [Gemini 4 Argon (3)](https://ahanow.ai/showcase/model/gemini-4-argon)
 - [GPT-6 Astra (3)](https://ahanow.ai/showcase/model/gpt-6-astra)
@@ -112,6 +112,9 @@ Every creation in the Live Catalog runs directly in the browser with **zero inst
 | [Castle Valley](https://ahanow.ai/showcase/work-e68a72b4-cef0-420e-8306-8f19f2682858) | Claude Fable 5.2 | — | 7537 KB | @__morse | — | Carry a torch and sword through a forest, past a village and toward the castle. Fight creatures along the way in single-player mode. |
 | [Zork · The Great Underground Empire](https://ahanow.ai/showcase/work-35d64f54-2930-46ed-8aea-c3a327c0fd89) | GPT-6 Astra | — | 24019 KB | @emollick | — | Start outside the white house and explore Zork in 3D. Collect objects and solve puzzles on your journey underground. |
 | [The Professor's Reagent Shelf](https://ahanow.ai/showcase/work-9eaff630-4a09-4fec-944f-c3c98ff6bb4d) | Claude Code | — | 246 KB | @shakin_2 | — | Find the reagent the professor asks for, label its properties, or identify an unknown solution from reaction clues. In Japanese. |
+| [Keep](https://ahanow.ai/showcase/work-22d45f39-5ab1-4609-b5e0-8d19837f0882) | Claude Fable 5.2 | — | 65 KB | @crtvTeknologist | — | Type a made-up password to build a pixel castle, then watch a raccoon test its defenses. |
+| [Brushwild](https://ahanow.ai/showcase/work-d1cd82da-d085-4a29-a60f-a461899697d4) | Claude Fable 5.2 | — | 2272 KB | Kevin Ngo | — | Choose a character class and explore a hand-painted world rendered in real time. Use the keyboard to move through the landscape. |
+| [GraphCon Deck](https://ahanow.ai/showcase/work-3e6e9497-35ac-4701-a9a6-26cf73accf93) | — | — | 101 KB | Yohei Nakajima | — | Step through a talk one connection at a time, then zoom out to see how its ideas fit together in a single graph. |
 <!-- SHOWCASE_CATALOG:END -->
 
 ---

@@ -1,7 +1,7 @@
 {
   "source": "https://ahanow.ai/llms-full.txt",
   "showcaseUrl": "https://ahanow.ai/showcase",
-  "updatedAt": "2026-11-27T11:43:56.198Z",
+  "updatedAt": "2026-11-27T13:14:17.670Z",
   "models": [
     {
       "label": "Claude Opus 5.5",
@@ -10,7 +10,7 @@
     },
     {
       "label": "Claude Fable 5.2",
-      "count": 8,
+      "count": 10,
       "url": "https://ahanow.ai/showcase/model/claude-fable-5-2"
     },
     {
@@ -651,6 +651,36 @@
       "authorName": "@shakin_2",
       "license": null,
       "sizeLabel": "246 KB"
+    },
+    {
+      "title": "Keep",
+      "url": "https://ahanow.ai/showcase/work-22d45f39-5ab1-4609-b5e0-8d19837f0882",
+      "summary": "Type a made-up password to build a pixel castle, then watch a raccoon test its defenses.",
+      "category": null,
+      "modelLabel": "Claude Fable 5.2",
+      "authorName": "@crtvTeknologist",
+      "license": null,
+      "sizeLabel": "65 KB"
+    },
+    {
+      "title": "Brushwild",
+      "url": "https://ahanow.ai/showcase/work-d1cd82da-d085-4a29-a60f-a461899697d4",
+      "summary": "Choose a character class and explore a hand-painted world rendered in real time. Use the keyboard to move through the landscape.",
+      "category": null,
+      "modelLabel": "Claude Fable 5.2",
+      "authorName": "Kevin Ngo",
+      "license": null,
+      "sizeLabel": "2272 KB"
+    },
+    {
+      "title": "GraphCon Deck",
+      "url": "https://ahanow.ai/showcase/work-3e6e9497-35ac-4701-a9a6-26cf73accf93",
+      "summary": "Step through a talk one connection at a time, then zoom out to see how its ideas fit together in a single graph.",
+      "category": null,
+      "modelLabel": null,
+      "authorName": "Yohei Nakajima",
+      "license": null,
+      "sizeLabel": "101 KB"
     }
   ]
 }
