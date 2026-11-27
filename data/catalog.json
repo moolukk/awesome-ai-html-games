@@ -1,8 +1,656 @@
 {
   "source": "https://ahanow.ai/llms-full.txt",
   "showcaseUrl": "https://ahanow.ai/showcase",
-  "updatedAt": null,
-  "models": [],
-  "categories": [],
-  "entries": []
+  "updatedAt": "2026-11-27T11:43:56.198Z",
+  "models": [
+    {
+      "label": "Claude Opus 5.5",
+      "count": 20,
+      "url": "https://ahanow.ai/showcase/model/claude-opus-5-5"
+    },
+    {
+      "label": "Claude Fable 5.2",
+      "count": 8,
+      "url": "https://ahanow.ai/showcase/model/claude-fable-5-2"
+    },
+    {
+      "label": "Claude",
+      "count": 3,
+      "url": "https://ahanow.ai/showcase/model/claude"
+    },
+    {
+      "label": "Gemini 4 Argon",
+      "count": 3,
+      "url": "https://ahanow.ai/showcase/model/gemini-4-argon"
+    },
+    {
+      "label": "GPT-6 Astra",
+      "count": 3,
+      "url": "https://ahanow.ai/showcase/model/gpt-6-astra"
+    },
+    {
+      "label": "Claude Artifacts",
+      "count": 2,
+      "url": "https://ahanow.ai/showcase/model/claude-artifacts"
+    },
+    {
+      "label": "Claude Code",
+      "count": 1,
+      "url": "https://ahanow.ai/showcase/model/claude-code"
+    },
+    {
+      "label": "Claude Opus 5",
+      "count": 1,
+      "url": "https://ahanow.ai/showcase/model/claude-opus-5"
+    },
+    {
+      "label": "Fable 5.2 + Opus 5.5",
+      "count": 1,
+      "url": "https://ahanow.ai/showcase/model/fable-5-2-opus-5-5"
+    },
+    {
+      "label": "Gemini 4 Neon",
+      "count": 1,
+      "url": "https://ahanow.ai/showcase/model/gemini-4-neon"
+    }
+  ],
+  "categories": [
+    {
+      "label": "Action",
+      "count": 8,
+      "url": "https://ahanow.ai/showcase/category/action"
+    },
+    {
+      "label": "Arcade",
+      "count": 6,
+      "url": "https://ahanow.ai/showcase/category/arcade"
+    },
+    {
+      "label": "Adventure",
+      "count": 5,
+      "url": "https://ahanow.ai/showcase/category/adventure"
+    },
+    {
+      "label": "Exploration",
+      "count": 4,
+      "url": "https://ahanow.ai/showcase/category/exploration"
+    },
+    {
+      "label": "Simulation",
+      "count": 4,
+      "url": "https://ahanow.ai/showcase/category/simulation"
+    },
+    {
+      "label": "Sports",
+      "count": 4,
+      "url": "https://ahanow.ai/showcase/category/sports"
+    },
+    {
+      "label": "Strategy",
+      "count": 4,
+      "url": "https://ahanow.ai/showcase/category/strategy"
+    },
+    {
+      "label": "Racing",
+      "count": 3,
+      "url": "https://ahanow.ai/showcase/category/racing"
+    },
+    {
+      "label": "Puzzle",
+      "count": 2,
+      "url": "https://ahanow.ai/showcase/category/puzzle"
+    },
+    {
+      "label": "Casual",
+      "count": 1,
+      "url": "https://ahanow.ai/showcase/category/casual"
+    },
+    {
+      "label": "Rhythm",
+      "count": 1,
+      "url": "https://ahanow.ai/showcase/category/rhythm"
+    }
+  ],
+  "entries": [
+    {
+      "title": "Cinderwatch",
+      "url": "https://ahanow.ai/showcase/work-b4b223b8-f325-4e31-87d4-933aba792ae8",
+      "summary": "A fantasy tower defense game. Watch the AI defend the beacon, or press C to take command and place your own towers.",
+      "category": "Strategy",
+      "modelLabel": "Claude Fable 5.2",
+      "authorName": "Kevin Ngo",
+      "license": "MIT",
+      "sizeLabel": "1087 KB"
+    },
+    {
+      "title": "The Tallow Deep",
+      "url": "https://ahanow.ai/showcase/work-76074051-d3fc-42cd-845a-a81004f26ac0",
+      "summary": "Explore a 3D dungeon by lantern light.",
+      "category": "Adventure",
+      "modelLabel": "Claude Opus 5.5",
+      "authorName": "chojondocho",
+      "license": "MIT",
+      "sizeLabel": "561 KB"
+    },
+    {
+      "title": "Atlantis",
+      "url": "https://ahanow.ai/showcase/work-e9086b4a-7507-41e6-bfda-9acc1c47bd2f",
+      "summary": "Fly over a 3D city threaded with canals.",
+      "category": "Exploration",
+      "modelLabel": "Claude Fable 5.2",
+      "authorName": "Maksymilian Dendura",
+      "license": "MIT",
+      "sizeLabel": "95 KB"
+    },
+    {
+      "title": "Nova Lancer",
+      "url": "https://ahanow.ai/showcase/work-d4787ab7-1b05-4283-bb5d-ed034537cd6f",
+      "summary": "Fly through coasts, canyons and fortresses in a 3D rail shooter.",
+      "category": "Arcade",
+      "modelLabel": "Claude Opus 5.5",
+      "authorName": "たぬ",
+      "license": "MIT",
+      "sizeLabel": "974 KB"
+    },
+    {
+      "title": "Abyssal Garden",
+      "url": "https://ahanow.ai/showcase/work-570cad7d-fee9-4dd5-81e1-50bed6056fa3",
+      "summary": "Freedive through kelp forests, shipwrecks and schools of fish.",
+      "category": "Exploration",
+      "modelLabel": "Claude Fable 5.2",
+      "authorName": "Maksymilian Dendura",
+      "license": "MIT",
+      "sizeLabel": "98 KB"
+    },
+    {
+      "title": "Clearwater Jetski",
+      "url": "https://ahanow.ai/showcase/work-6f777513-0d4a-4ea5-9a48-8e750821ef77",
+      "summary": "Ride a jet ski over shallow ocean waves.",
+      "category": "Simulation",
+      "modelLabel": null,
+      "authorName": "Lumaris",
+      "license": "MIT",
+      "sizeLabel": "558 KB"
+    },
+    {
+      "title": "Netcord",
+      "url": "https://ahanow.ai/showcase/work-367f12f6-5dc0-4042-8170-ccc68b405962",
+      "summary": "Play a single 3D tennis match or enter the tour.",
+      "category": "Sports",
+      "modelLabel": "Claude Opus 5.5",
+      "authorName": "Oleh Khomei",
+      "license": "MIT",
+      "sizeLabel": "580 KB"
+    },
+    {
+      "title": "Scorch",
+      "url": "https://ahanow.ai/showcase/work-b0bb28be-c3bf-403e-82ee-eb261076b2db",
+      "summary": "Race from above and upgrade your car in the garage.",
+      "category": "Racing",
+      "modelLabel": "Claude Opus 5.5",
+      "authorName": "Oleh Khomei",
+      "license": "MIT",
+      "sizeLabel": "239 KB"
+    },
+    {
+      "title": "Cinder",
+      "url": "https://ahanow.ai/showcase/work-84a40c8a-e639-4124-8595-88c0fa4c6217",
+      "summary": "Use spacing and a range of moves in a side-view fighting game.",
+      "category": "Action",
+      "modelLabel": "Claude Opus 5.5",
+      "authorName": "Oleh Khomei",
+      "license": "MIT",
+      "sizeLabel": "594 KB"
+    },
+    {
+      "title": "Dewdrop",
+      "url": "https://ahanow.ai/showcase/work-5c506063-3c00-417d-bf15-b8481000b718",
+      "summary": "Leap through a moonlit garden and collect glowing fruit.",
+      "category": "Action",
+      "modelLabel": "Claude Opus 5.5",
+      "authorName": "Oleh Khomei",
+      "license": "MIT",
+      "sizeLabel": "141 KB"
+    },
+    {
+      "title": "Contrail",
+      "url": "https://ahanow.ai/showcase/work-42c27ed4-7e03-4f81-aa71-90ea32ecdfb0",
+      "summary": "Pilot a plane through a low-poly landscape.",
+      "category": "Simulation",
+      "modelLabel": "Claude Opus 5.5",
+      "authorName": "Oleh Khomei",
+      "license": "MIT",
+      "sizeLabel": "195 KB"
+    },
+    {
+      "title": "Barrage",
+      "url": "https://ahanow.ai/showcase/work-f02f0f95-cbdf-4077-a3e4-af8a94b04bf9",
+      "summary": "Take turns aiming shots and adjusting their trajectories.",
+      "category": "Strategy",
+      "modelLabel": "Claude Opus 5.5",
+      "authorName": "Oleh Khomei",
+      "license": "MIT",
+      "sizeLabel": "143 KB"
+    },
+    {
+      "title": "Swerve",
+      "url": "https://ahanow.ai/showcase/work-79f7f654-74f8-47e8-a845-80e5cdc578d5",
+      "summary": "Play a top-down soccer match.",
+      "category": "Sports",
+      "modelLabel": "Claude Opus 5.5",
+      "authorName": "Oleh Khomei",
+      "license": "MIT",
+      "sizeLabel": "250 KB"
+    },
+    {
+      "title": "Quintet",
+      "url": "https://ahanow.ai/showcase/work-0c399aa2-899e-4326-9489-f0daf3771902",
+      "summary": "Connect matching colored tiles.",
+      "category": "Puzzle",
+      "modelLabel": "Claude Opus 5.5",
+      "authorName": "Oleh Khomei",
+      "license": "MIT",
+      "sizeLabel": "92 KB"
+    },
+    {
+      "title": "Triform",
+      "url": "https://ahanow.ai/showcase/work-e82d75c9-7a2a-46ab-82d3-eaff9ffd16fb",
+      "summary": "Switch between robot, raptor and tank forms.",
+      "category": "Action",
+      "modelLabel": "Claude Opus 5.5",
+      "authorName": "Oleh Khomei",
+      "license": "MIT",
+      "sizeLabel": "173 KB"
+    },
+    {
+      "title": "Dropzone",
+      "url": "https://ahanow.ai/showcase/work-f0098678-c61a-4677-8326-52468f2cd654",
+      "summary": "Slip past guards and reach the extraction point.",
+      "category": "Arcade",
+      "modelLabel": "Claude Opus 5.5",
+      "authorName": "Oleh Khomei",
+      "license": "MIT",
+      "sizeLabel": "158 KB"
+    },
+    {
+      "title": "Spindle",
+      "url": "https://ahanow.ai/showcase/work-0cfa1f2c-e988-4537-9a87-82be402f75cb",
+      "summary": "Climb around a rotating tower above the sea.",
+      "category": "Action",
+      "modelLabel": "Claude Opus 5.5",
+      "authorName": "Oleh Khomei",
+      "license": "MIT",
+      "sizeLabel": "130 KB"
+    },
+    {
+      "title": "Brimful",
+      "url": "https://ahanow.ai/showcase/work-217b410f-7dbc-4d4f-9d78-d10b19732658",
+      "summary": "Move between food stations and serve orders in time.",
+      "category": "Casual",
+      "modelLabel": "Claude Opus 5.5",
+      "authorName": "Oleh Khomei",
+      "license": "MIT",
+      "sizeLabel": "110 KB"
+    },
+    {
+      "title": "8-Bit Quest",
+      "url": "https://ahanow.ai/showcase/work-5fa9ddab-ba82-4ec0-89bc-087e4d442b23",
+      "summary": "Explore a pixel-art adventure.",
+      "category": "Adventure",
+      "modelLabel": null,
+      "authorName": "Prateek",
+      "license": "MIT",
+      "sizeLabel": "16 KB"
+    },
+    {
+      "title": "Apex Predator",
+      "url": "https://ahanow.ai/showcase/work-b0778811-6317-486e-98de-d71ccd00ed00",
+      "summary": "Play a survival game.",
+      "category": "Action",
+      "modelLabel": null,
+      "authorName": "Prateek",
+      "license": "MIT",
+      "sizeLabel": "18 KB"
+    },
+    {
+      "title": "Pulse Beat",
+      "url": "https://ahanow.ai/showcase/work-098e770c-8174-484e-a62f-7ee241f0e0b9",
+      "summary": "Tap in time with the beat.",
+      "category": "Rhythm",
+      "modelLabel": null,
+      "authorName": "Prateek",
+      "license": "MIT",
+      "sizeLabel": "13 KB"
+    },
+    {
+      "title": "Gravity Ball",
+      "url": "https://ahanow.ai/showcase/work-233c58b9-f093-4130-9549-44602a09608c",
+      "summary": "Navigate gravity fields and avoid black holes.",
+      "category": "Arcade",
+      "modelLabel": null,
+      "authorName": "Prateek",
+      "license": "MIT",
+      "sizeLabel": "14 KB"
+    },
+    {
+      "title": "Logic Gate",
+      "url": "https://ahanow.ai/showcase/work-f65226cd-6eaa-4e5f-b3b7-657d8d5c87ad",
+      "summary": "Arrange logic gates to complete a circuit.",
+      "category": "Puzzle",
+      "modelLabel": null,
+      "authorName": "Prateek",
+      "license": "MIT",
+      "sizeLabel": "16 KB"
+    },
+    {
+      "title": "Chain Reaction",
+      "url": "https://ahanow.ai/showcase/work-7e324214-f433-41d1-88cc-55dd614d8da3",
+      "summary": "Set off a chain reaction.",
+      "category": "Arcade",
+      "modelLabel": null,
+      "authorName": "Prateek",
+      "license": "MIT",
+      "sizeLabel": "13 KB"
+    },
+    {
+      "title": "Phantom Path",
+      "url": "https://ahanow.ai/showcase/work-21086e32-2494-4f7a-b4f7-41dbdc4909c1",
+      "summary": "Find a path to the exit.",
+      "category": "Adventure",
+      "modelLabel": null,
+      "authorName": "Prateek",
+      "license": "MIT",
+      "sizeLabel": "18 KB"
+    },
+    {
+      "title": "Marble Run",
+      "url": "https://ahanow.ai/showcase/work-c90b6e3b-9da7-4514-a932-4a5e41e09b25",
+      "summary": "Tilt the board to steer a marble and collect stars.",
+      "category": "Arcade",
+      "modelLabel": null,
+      "authorName": "Prateek",
+      "license": "MIT",
+      "sizeLabel": "11 KB"
+    },
+    {
+      "title": "Vaporwave Escape",
+      "url": "https://ahanow.ai/showcase/work-4007eb7f-5b38-4b93-8ff5-12d1ebaa6cc0",
+      "summary": "Explore a neon landscape and collect items against the clock.",
+      "category": "Adventure",
+      "modelLabel": null,
+      "authorName": "Prateek",
+      "license": "MIT",
+      "sizeLabel": "30 KB"
+    },
+    {
+      "title": "Single-File Platformer",
+      "url": "https://ahanow.ai/showcase/work-14389689-77cf-40e7-b28b-e872e32b5764",
+      "summary": "Jump across platforms with double jumps or touch controls.",
+      "category": "Action",
+      "modelLabel": null,
+      "authorName": "Black Hate",
+      "license": "MIT",
+      "sizeLabel": "20 KB"
+    },
+    {
+      "title": "Lanternfall",
+      "url": "https://ahanow.ai/showcase/work-2543062a-8965-49ea-8899-b0f843df0db5",
+      "summary": "Lead a four-person party, choose loot and time your flares while the party fights.",
+      "category": "Strategy",
+      "modelLabel": "Claude Fable 5.2",
+      "authorName": "@loktar00",
+      "license": null,
+      "sizeLabel": "4733 KB"
+    },
+    {
+      "title": "Antikythera",
+      "url": "https://ahanow.ai/showcase/work-1a4235c7-b9c5-45bc-862c-8ca1672e2a2a",
+      "summary": "Dive on a Greek shipwreck and recover fragments of an ancient mechanism.",
+      "category": "Adventure",
+      "modelLabel": "Claude Opus 5.5",
+      "authorName": "@edwinarbus",
+      "license": null,
+      "sizeLabel": "3005 KB"
+    },
+    {
+      "title": "Saltline",
+      "url": "https://ahanow.ai/showcase/work-c8c63a4e-eaa4-4ec2-9052-1be4675dbf15",
+      "summary": "Explore a rain-soaked container port in a first-person shooter.",
+      "category": "Action",
+      "modelLabel": "Claude Fable 5.2",
+      "authorName": "@felixrieseberg",
+      "license": null,
+      "sizeLabel": "3469 KB"
+    },
+    {
+      "title": "Koi Pond Garden",
+      "url": "https://ahanow.ai/showcase/work-52d1f9bc-cf5f-4c31-8f35-cc059926eccc",
+      "summary": "Explore a Japanese garden and interact with the koi pond.",
+      "category": "Simulation",
+      "modelLabel": "Claude Opus 5.5",
+      "authorName": "@SouranyPhomhome",
+      "license": "MIT",
+      "sizeLabel": "1266 KB"
+    },
+    {
+      "title": "Roadster Rush",
+      "url": "https://ahanow.ai/showcase/work-b4cccf1b-f7a9-4558-ba89-c507d1b85d48",
+      "summary": "Dodge traffic, roll through the air and chase a high score in an arcade roadster.",
+      "category": "Racing",
+      "modelLabel": "Gemini 4 Argon",
+      "authorName": "@ammaar",
+      "license": null,
+      "sizeLabel": "8006 KB"
+    },
+    {
+      "title": "Papertrails",
+      "url": "https://ahanow.ai/showcase/work-8e38dd03-27a9-431a-9097-20fcce49abf9",
+      "summary": "Walk through a paper world that folds and unfolds as you explore.",
+      "category": "Exploration",
+      "modelLabel": "Fable 5.2 + Opus 5.5",
+      "authorName": "@xikhar",
+      "license": "MIT",
+      "sizeLabel": "27463 KB"
+    },
+    {
+      "title": "Tennis",
+      "url": "https://ahanow.ai/showcase/work-a81dd2d2-7e14-4a1e-b476-eb8870ce4dc4",
+      "summary": "Play an arcade tennis game that starts with two paddles and a ball.",
+      "category": "Arcade",
+      "modelLabel": "Claude Fable 5.2",
+      "authorName": "@photonstorm",
+      "license": null,
+      "sizeLabel": "22888 KB"
+    },
+    {
+      "title": "Turbo Kart Rally",
+      "url": "https://ahanow.ai/showcase/work-926b103b-25e8-47e9-9390-03d27f69f178",
+      "summary": "Race seven computer-controlled karts, drift for boosts and use items to gain the lead.",
+      "category": "Racing",
+      "modelLabel": "Claude Opus 5.5",
+      "authorName": "@bridgemindai",
+      "license": "MIT",
+      "sizeLabel": "1481 KB"
+    },
+    {
+      "title": "Sakura River Valley",
+      "url": "https://ahanow.ai/showcase/work-3714ed5c-a0bb-4120-aef2-6a2f65a80038",
+      "summary": "Guide a boat through a Japanese river valley and watch the weather and daylight change.",
+      "category": "Exploration",
+      "modelLabel": "Claude Opus 5.5",
+      "authorName": "@MengTo",
+      "license": null,
+      "sizeLabel": "11141 KB"
+    },
+    {
+      "title": "Wizard Chess",
+      "url": "https://ahanow.ai/showcase/work-88220740-2c99-49e4-8538-3b44d5ef06b3",
+      "summary": "Play on a 3D chessboard where captured pieces meet in animated battles.",
+      "category": "Strategy",
+      "modelLabel": "Gemini 4 Argon",
+      "authorName": "@GeminiApp",
+      "license": null,
+      "sizeLabel": "18737 KB"
+    },
+    {
+      "title": "Chamonix Ski Sim",
+      "url": "https://ahanow.ai/showcase/work-55c89cda-47e5-46b5-a6d3-a4391d129bfc",
+      "summary": "Ski down Mont Blanc on real Chamonix terrain and carve tracks in the snow.",
+      "category": "Sports",
+      "modelLabel": "Gemini 4 Neon",
+      "authorName": "@GoogleDeepMind",
+      "license": null,
+      "sizeLabel": "2642 KB"
+    },
+    {
+      "title": "Voxel Musou",
+      "url": "https://ahanow.ai/showcase/work-05b4123e-280e-4f47-8b4f-869622f0c726",
+      "summary": "Lead the voxel warrior Zhao Yun into battle. Chain strikes, dodge and unleash a Musou attack.",
+      "category": "Action",
+      "modelLabel": "Claude Opus 5.5",
+      "authorName": "@BubuStd",
+      "license": "Code: MIT; bundled font: SIL OFL 1.1",
+      "sizeLabel": "4696 KB"
+    },
+    {
+      "title": "Argon Tennis",
+      "url": "https://ahanow.ai/showcase/work-e7dcf94a-fc99-491f-8a87-eeb050d0dc70",
+      "summary": "Rally against an AI opponent in a 3D tennis match.",
+      "category": "Sports",
+      "modelLabel": "Gemini 4 Argon",
+      "authorName": "@ammaar",
+      "license": null,
+      "sizeLabel": "26183 KB"
+    },
+    {
+      "title": "The Duke’s Lawn",
+      "url": "https://ahanow.ai/showcase/work-77b35aee-7d4c-4be7-9534-21733b862c6b",
+      "summary": "Drive a ride-on mower across the duke’s lawn.",
+      "category": "Simulation",
+      "modelLabel": "Claude Opus 5.5",
+      "authorName": "@_MaxBlade",
+      "license": null,
+      "sizeLabel": "1843 KB"
+    },
+    {
+      "title": "Starry Nightrider",
+      "url": "https://ahanow.ai/showcase/work-5fcd0ae3-63e5-446d-a56f-c3766251be60",
+      "summary": "Ride through Van Gogh’s Starry Night, collect glowing orbs and carry them to the village church to score.",
+      "category": null,
+      "modelLabel": "Claude Fable 5.2",
+      "authorName": "@ebbyamir",
+      "license": null,
+      "sizeLabel": "7297 KB"
+    },
+    {
+      "title": "Komiya in the Interrogation Room",
+      "url": "https://ahanow.ai/showcase/work-b91a733f-d845-427b-b597-9699f5fa8772",
+      "summary": "Question a suspect, compare his answers with the evidence, and uncover contradictions before your turns run out. In Japanese.",
+      "category": null,
+      "modelLabel": "Claude Artifacts",
+      "authorName": "@YujiHorii",
+      "license": null,
+      "sizeLabel": "122 KB"
+    },
+    {
+      "title": "Claude of Duty",
+      "url": "https://ahanow.ai/showcase/work-612e512b-601f-4dd4-9aab-d552f8af1432",
+      "summary": "Join a team of bots in a procedurally built first-person shooter. Move through city streets and compete for the highest team score.",
+      "category": null,
+      "modelLabel": "Claude Opus 5",
+      "authorName": "@mattshumer_",
+      "license": null,
+      "sizeLabel": "2000 KB"
+    },
+    {
+      "title": "Awa ga Kienai",
+      "url": "https://ahanow.ai/showcase/work-7795c86b-941c-47ba-8ce4-3b8e7bb0f2ef",
+      "summary": "Sneak extra shampoo onto Dad’s head while he rinses. Let go before he notices the prank. In Japanese.",
+      "category": null,
+      "modelLabel": "Claude",
+      "authorName": "@vyaPudzd1E54661",
+      "license": null,
+      "sizeLabel": "1363 KB"
+    },
+    {
+      "title": "STORM RACE",
+      "url": "https://ahanow.ai/showcase/work-fd111619-dd04-42ca-b62f-b9bb86badef4",
+      "summary": "Pick a Mini 4WD car, rotate it in the workshop, inspect its parts in an exploded view and take it to the track.",
+      "category": null,
+      "modelLabel": "GPT-6 Astra",
+      "authorName": "@BubuStd",
+      "license": null,
+      "sizeLabel": "743 KB"
+    },
+    {
+      "title": "Shigo vs Wakamono Kotoba",
+      "url": "https://ahanow.ai/showcase/work-400df996-33d9-48fe-89b2-2a1e9bc26426",
+      "summary": "Choose old-school or modern Japanese slang, then put your vocabulary to the test in a word-throwing duel. In Japanese.",
+      "category": null,
+      "modelLabel": "Claude",
+      "authorName": "@vyaPudzd1E54661",
+      "license": null,
+      "sizeLabel": "2098 KB"
+    },
+    {
+      "title": "Sasarete Tamaruka!",
+      "url": "https://ahanow.ai/showcase/work-253b474f-f6c9-4931-841a-372237b499eb",
+      "summary": "Play as a wall socket hiding behind furniture. Dodge the plug and freeze when the flashlight sweeps past. In Japanese.",
+      "category": null,
+      "modelLabel": "Claude",
+      "authorName": "@vyaPudzd1E54661",
+      "license": null,
+      "sizeLabel": "1609 KB"
+    },
+    {
+      "title": "Tidebloom Rally",
+      "url": "https://ahanow.ai/showcase/work-06e7bbf8-1612-4c68-bfdb-b2d183d561af",
+      "summary": "Choose a reef rider and race across a skyway above the sea. Drift through corners and use items to pass your rivals.",
+      "category": null,
+      "modelLabel": "GPT-6 Astra",
+      "authorName": "@superalesha",
+      "license": null,
+      "sizeLabel": "1608 KB"
+    },
+    {
+      "title": "Oxy's Life",
+      "url": "https://ahanow.ai/showcase/work-a9ed0c4a-e97f-479f-8473-befc1402719e",
+      "summary": "Launch an oxygen molecule through a pinball-like world and discover what it becomes as it reacts with other elements. In Japanese.",
+      "category": null,
+      "modelLabel": "Claude Artifacts",
+      "authorName": "@oga_genkilabo",
+      "license": null,
+      "sizeLabel": "39 KB"
+    },
+    {
+      "title": "Castle Valley",
+      "url": "https://ahanow.ai/showcase/work-e68a72b4-cef0-420e-8306-8f19f2682858",
+      "summary": "Carry a torch and sword through a forest, past a village and toward the castle. Fight creatures along the way in single-player mode.",
+      "category": null,
+      "modelLabel": "Claude Fable 5.2",
+      "authorName": "@__morse",
+      "license": null,
+      "sizeLabel": "7537 KB"
+    },
+    {
+      "title": "Zork · The Great Underground Empire",
+      "url": "https://ahanow.ai/showcase/work-35d64f54-2930-46ed-8aea-c3a327c0fd89",
+      "summary": "Start outside the white house and explore Zork in 3D. Collect objects and solve puzzles on your journey underground.",
+      "category": null,
+      "modelLabel": "GPT-6 Astra",
+      "authorName": "@emollick",
+      "license": null,
+      "sizeLabel": "24019 KB"
+    },
+    {
+      "title": "The Professor's Reagent Shelf",
+      "url": "https://ahanow.ai/showcase/work-9eaff630-4a09-4fec-944f-c3c98ff6bb4d",
+      "summary": "Find the reagent the professor asks for, label its properties, or identify an unknown solution from reaction clues. In Japanese.",
+      "category": null,
+      "modelLabel": "Claude Code",
+      "authorName": "@shakin_2",
+      "license": null,
+      "sizeLabel": "246 KB"
+    }
+  ]
 }

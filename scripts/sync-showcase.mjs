@@ -25,23 +25,20 @@ function escapePipe(value) {
  * Parse the `## AI page showcase (...)` section emitted by `ahanow.ai/llms-full.txt`.
  */
 export function parseLlmsShowcaseSection(markdown) {
-	const match = markdown.match(
-		/^## AI page showcase \(\d+\)\n([\s\S]*?)(?=\n## |\s*$)/m,
+	const sections = markdown.replace(/\r\n/g, "\n").split(/^## /m).slice(1);
+	const section = sections.find((value) =>
+		/^AI page showcase \(\d+\)[ \t]*(?:\n|$)/.test(value),
 	);
-	if (!match) {
-		return { models: [], categories: [], entries: [] };
-	}
+	if (!section) return { models: [], categories: [], entries: [] };
 
-	const lines = match[1]
-		.split("\n")
-		.map((line) => line.trim())
-		.filter((line) => line.startsWith("- "));
-
+	const [heading, ...lines] = section.split("\n");
+	const expectedCount = Number(heading.match(/\d+/)[0]);
 	const models = [];
 	const categories = [];
 	const entries = [];
 
-	for (const line of lines) {
+	for (const rawLine of lines) {
+		const line = rawLine.trim();
 		const modelMatch = line.match(
 			/^- Model collection: \[(.+?) \((\d+)\)\]\((https?:\/\/[^)]+)\)$/,
 		);
@@ -82,33 +79,22 @@ export function parseLlmsShowcaseSection(markdown) {
 		let license = null;
 		let sizeLabel = null;
 
-		const parenMatch = rawTitle.match(/^(.+?)\s+\(([^()]+)\)$/);
-		if (parenMatch) {
-			title = parenMatch[1].trim();
-			const tokens = parenMatch[2]
-				.split("·")
-				.map((token) => token.trim())
-				.filter(Boolean);
-
-			const remaining = [];
-			for (const token of tokens) {
-				if (token.startsWith("by ")) {
-					authorName = token.slice(3).trim();
-				} else if (/^\d+(?:\.\d+)?\s*(?:B|KB|MB)$/i.test(token)) {
-					sizeLabel = token;
-				} else if (
-					/^(?:MIT|Apache|GPL|BSD|ISC|CC0|CC-BY|MPL|Unlicense)/i.test(token)
-				) {
-					license = token;
-				} else {
-					remaining.push(token);
-				}
+		// The feed publishes its category and model collections before the works.
+		// Recognize tags by those labels so either optional field can be omitted.
+		const taggedTitle = rawTitle.match(/^(.+) \(((?:[^()]|\([^()]*\))*)\)$/);
+		if (taggedTitle) {
+			const tokens = taggedTitle[2].split(" · ");
+			if (categories.some(({ label }) => label === tokens[0])) category = tokens.shift();
+			if (models.some(({ label }) => label === tokens[0])) modelLabel = tokens.shift();
+			if (tokens[0]?.startsWith("by ")) authorName = tokens.shift().slice(3);
+			if (/^\d+(?:\.\d+)?\s*(?:B|KB|MB)$/i.test(tokens.at(-1))) {
+				sizeLabel = tokens.pop();
 			}
-			if (remaining.length >= 2) {
-				category = remaining[0];
-				modelLabel = remaining[1];
-			} else if (remaining.length === 1) {
-				modelLabel = remaining[0];
+			// When only the title has parentheses, preserve them as part of the title.
+			const hasLicense = /^(?:MIT|Apache|GPL|BSD|ISC|CC0|CC-BY|MPL|Unlicense)/i.test(tokens[0]);
+			if (category || modelLabel || authorName || sizeLabel || hasLicense) {
+				title = taggedTitle[1];
+				license = tokens.join(" · ") || null;
 			}
 		}
 
@@ -124,6 +110,9 @@ export function parseLlmsShowcaseSection(markdown) {
 		});
 	}
 
+	if (entries.length !== expectedCount) {
+		throw new Error(`Showcase advertises ${expectedCount} entries, parsed ${entries.length}.`);
+	}
 	return { models, categories, entries };
 }
 
@@ -190,15 +179,15 @@ async function main() {
 		return;
 	}
 
+	const previous = JSON.parse(await readFile(CATALOG_PATH, "utf8"));
 	const catalog = {
 		source: SOURCE_URL,
 		showcaseUrl: SHOWCASE_URL,
-		updatedAt: new Date().toISOString(),
+		updatedAt: previous.updatedAt,
 		models: parsed.models,
 		categories: parsed.categories,
 		entries: parsed.entries,
 	};
-	await writeFile(CATALOG_PATH, `${JSON.stringify(catalog, null, 2)}\n`, "utf8");
 
 	const readme = await readFile(README_PATH, "utf8");
 	const startIdx = readme.indexOf(START_MARKER);
@@ -209,7 +198,11 @@ async function main() {
 
 	const rendered = renderCatalogMarkdown(parsed);
 	const nextReadme = `${readme.slice(0, startIdx + START_MARKER.length)}\n${rendered}\n${readme.slice(endIdx)}`;
-	await writeFile(README_PATH, nextReadme, "utf8");
+	if (JSON.stringify(previous) !== JSON.stringify(catalog)) {
+		catalog.updatedAt = new Date().toISOString();
+		await writeFile(CATALOG_PATH, `${JSON.stringify(catalog, null, 2)}\n`, "utf8");
+	}
+	if (readme !== nextReadme) await writeFile(README_PATH, nextReadme, "utf8");
 
 	console.log(
 		`Synced ${parsed.entries.length} entries (${parsed.models.length} models, ${parsed.categories.length} categories).`,
